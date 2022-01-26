@@ -1,0 +1,21 @@
+{
+  "name": "js-use",
+  "version": "1.0.1",
+  "description": "An JS developer tool library for vue, react, mini-program, ect.",
+  "main": "src/index.js",
+  "scripts": {
+    "test-bus": "node ./Test/event-bus-test.js",
+    "test-store": "node ./Test/event-store-test.js"
+  },
+  "author": "ldlw",
+  "license": "MIT",
+  "keywords": [
+    "js-use",
+    "state managment",
+    "event bus",
+    "mini-program",
+    "javascript",
+    "vue",
+    "react"
+  ]
+}
