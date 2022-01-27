@@ -17,5 +17,8 @@
     "javascript",
     "vue",
     "react"
-  ]
+  ],
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
 }

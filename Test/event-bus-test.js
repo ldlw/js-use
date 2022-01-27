@@ -7,7 +7,7 @@ const Callback1 = (...payload) => {
 }
 
 const Callback2 = (...payload) => {
-  console.log("Callback1:", payload)
+  console.log("Callback2:", payload)
 }
 
 const lileiCallback1 = (...payload) => {

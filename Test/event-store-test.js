@@ -10,7 +10,6 @@ const eventStore = new EventStore({
   },
   actions: {
     getHomeMultidata(ctx) {
-      console.log(ctx)
       axios.get("http://123.207.32.32:8000/home/multidata").then(res => {
         const banner = res.data.data.banner
         const recommend = res.data.data.recommend
